@@ -26,7 +26,7 @@ html{
     margin-left: 24px;
     width: 40px;
     height: 40px;
-    background-image:url(/images/close.svg) ;
+    background-image: url(images/close.svg);
 }
 .up-page__group{
     margin-top: 18.73px;
@@ -37,7 +37,7 @@ html{
     margin-left: 78.27px;
     width: 40px;
     height: 40px;
-    background-image:url(/images/search.svg);
+    background-image: url(images/search.svg);
 }
 .basic-content{
     width: 222px;
@@ -212,17 +212,17 @@ html{
 .footer__call{
     margin-top: 0px;
     margin-left: 24px;
-    background-image:url(/images/call.svg) ;
+    background-image: url(images/call.svg);
 }
 .footer__chat{
     margin-top: 0px;
     margin-left: 16px;
-    background-image:url(/images/chat.svg) ;
+    background-image: url(images/chat.svg);
 }
 .footer__profile{
     margin-top: 0px;
     margin-left: 16px;
-    background-image:url(/images/profile.svg);
+    background-image: url(images/profile.svg);
 }
 .footer__info{
     width: 320px;
