@@ -1,33 +1,3 @@
-@font-face {
-    font-family: 'TT Lakes Compressed';
-    src: url('/fonts/TTLakesCompressed-Regular.eot');
-    src: local('TT Lakes Compressed Regular'), local('TTLakesCompressed-Regular'),
-        url('/fonts/TTLakesCompressed-Regular.eot') format('embedded-opentype'),
-        url('/fonts/TTLakesCompressed-Regular.woff') format('woff'),
-        url('/fonts/TTLakesCompressed-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'TT Lakes';
-    src: url('/fonts/TTLakesCondensed-Regular.eot');
-    src: local('TT Lakes Regular'), local('TTLakes-Regular'),
-        url('/fonts/TTLakesCondensed-Regular.eot') format('embedded-opentype'),
-        url('/fonts/TTLakesCondensed-Regular.woff') format('woff'),
-        url('/fonts/TTLakesCondensed-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'TT Lakes';
-    src: url('/fonts/TTLakes-Bold.eot');
-    src: local('TT Lakes Bold'), local('TTLakes-Bold'),
-        url('/fonts/TTLakes-Bold.eot') format('embedded-opentype'),
-        url('/fonts/TTLakes-Bold.woff') format('woff'),
-        url('/fonts/TTLakes-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
 html{
     font-family: 'TT Lakes', 'TT Lakes Compressed';
 }
@@ -56,7 +26,7 @@ html{
     margin-left: 24px;
     width: 40px;
     height: 40px;
-    background-image: url(images/close.svg);
+    background-image:url(/images/close.svg) ;
 }
 .up-page__group{
     margin-top: 18.73px;
@@ -67,7 +37,7 @@ html{
     margin-left: 78.27px;
     width: 40px;
     height: 40px;
-    background-image: url(images/search.svg);
+    background-image:url(/images/search.svg);
 }
 .basic-content{
     width: 222px;
@@ -242,17 +212,17 @@ html{
 .footer__call{
     margin-top: 0px;
     margin-left: 24px;
-    background-image: url(images/call.svg);
+    background-image:url(/images/call.svg) ;
 }
 .footer__chat{
     margin-top: 0px;
     margin-left: 16px;
-    background-image: url(images/chat.svg);
+    background-image:url(/images/chat.svg) ;
 }
 .footer__profile{
     margin-top: 0px;
     margin-left: 16px;
-    background-image: url(images/profile.svg);
+    background-image:url(/images/profile.svg);
 }
 .footer__info{
     width: 320px;
