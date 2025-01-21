@@ -1,5 +1,5 @@
 html{
-    font-family: 'TT Lakes', 'TT Lakes Compressed';
+    font-family: 'TT Lakes', 'TT Lakes light';
 }
 .body{
     width: 320px;
@@ -109,95 +109,127 @@ html{
 .backlight:hover{
     color:#7e7e82;
     border:  none;
-    transition: 0,5s;
+    transition: 2s;
 }
-.stickrepair:hover::before{
+.stickrepair::before{
     content: "";
-    width: 4px;
+    width: 6px;
     height: 32px;
     background-color: #41f6d7;
     border-top-right-radius: 50px; 
     border-bottom-right-radius: 50px;
     position: absolute;
-    left: 0px;
+    left: -6px;
     top: 116px;
 }
-.stickservices:hover::before{
+.stickrepair:hover:before{
+    transform: translateX(4px);
+    transition: 1s;
+}
+.stickservices::before{
     content: "";
-    width: 4px;
+    width: 6px;
     height: 32px;
     background-color: #41f6d7;
     border-top-right-radius: 50px; 
     border-bottom-right-radius: 50px;
     position: absolute;
-    left: 0px;
+    left: -6px;
     top: 179px;
 }
-.stickclients:hover::before{
+.stickservices:hover:before{
+    transform: translateX(4px);
+    transition: 1s;
+}
+.stickclients::before{
     content: "";
-    width: 4px;
+    width: 6px;
     height: 32px;
     background-color: #41f6d7;
     border-top-right-radius: 50px; 
     border-bottom-right-radius: 50px;
     position: absolute;
-    left: 0px;
+    left: -6px;
     top: 244px;
 }
-.sticksellers:hover::before{
+.stickclients:hover:before{
+    transform: translateX(4px);
+    transition: 1s;
+}
+.sticksellers::before{
     content: "";
-    width: 4px;
+    width: 6px;
     height: 32px;
     background-color: #41f6d7;
     border-top-right-radius: 50px; 
     border-bottom-right-radius: 50px;
     position: absolute;
-    left: 0px;
+    left: -6px;
     top: 309px;
 }
-.stickpartners:hover::before{
+.sticksellers:hover:before{
+    transform: translateX(4px);
+    transition: 1s;
+}
+.stickpartners:before{
     content: "";
-    width: 4px;
+    width: 6px;
     height: 32px;
     background-color: #41f6d7;
     border-top-right-radius: 50px; 
     border-bottom-right-radius: 50px;
     position: absolute;
-    left: 0px;
+    left: -6px;
     top: 372px;
 }
-.stickproducer:hover::before{
+.stickpartners:hover::before{
+    transform: translateX(4px);
+    transition: 2s;
+}
+.stickproducer::before{
     content: "";
-    width: 4px;
+    width: 6px;
     height: 32px;
     background-color: #41f6d7;
     border-top-right-radius: 50px; 
     border-bottom-right-radius: 50px;
     position: absolute;
-    left: 0px;
+    left: -6px;
     top: 437px;
 }
-.stickadres:hover::before{
+.stickproducer:hover:before{
+    transform: translateX(4px);
+    transition: 1s;
+}
+.stickadres::before{
     content: "";
-    width: 4px;
+    width: 6px;
     height: 32px;
     background-color: #41f6d7;
     border-top-right-radius: 50px; 
     border-bottom-right-radius: 50px;
     position: absolute;
-    left: 0px;
+    left: -6px;
     top: 500px;
 }
-.stickcontact:hover::before{
+.stickadres:hover:before{
+    transform: translateX(4px);
+    transition: 1s;
+}
+.stickcontact::before{
     content: "";
-    width: 4px;
+    width: 6px;
     height: 32px;
     background-color: #41f6d7;
     border-top-right-radius: 50px; 
     border-bottom-right-radius: 50px;
     position: absolute;
-    left: 0px;
+    left: -6px;
     top: 563px;
+}
+.stickcontact:hover::before{
+    transform: translateX(4px);
+    transition: 1s;
 }
 .footer{
     width: 320px;
@@ -228,6 +260,7 @@ html{
     width: 320px;
     height: 70px;
     margin-top: 16px;
+    font-family: 'TT Lakes Condensed';
 }
 .footer__mail{
     width: 106px;
@@ -235,13 +268,15 @@ html{
     margin-top: 0px;
     margin-left: 24px;
     font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
 }
 .footer__phone{
     width: 320px;
     height: 32px;
     margin-top: 12px;
     margin-left: 24px;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 24px;
     font-style: normal;
 }
