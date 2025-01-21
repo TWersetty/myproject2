@@ -109,7 +109,7 @@ html{
 .backlight:hover{
     color:#7e7e82;
     border:  none;
-    transition: 2s;
+    transition: 1s;
 }
 .stickrepair::before{
     content: "";
@@ -184,7 +184,7 @@ html{
 }
 .stickpartners:hover::before{
     transform: translateX(4px);
-    transition: 2s;
+    transition: 1s;
 }
 .stickproducer::before{
     content: "";
