@@ -123,7 +123,7 @@ html{
     top: 116px;
 }
 .stickrepair:hover:before{
-    transform: translateX(4px);
+    transform: translateX(6px);
     transition: 1s;
 }
 .stickservices::before{
@@ -138,7 +138,7 @@ html{
     top: 179px;
 }
 .stickservices:hover:before{
-    transform: translateX(4px);
+    transform: translateX(6px);
     transition: 1s;
 }
 .stickclients::before{
@@ -153,7 +153,7 @@ html{
     top: 244px;
 }
 .stickclients:hover:before{
-    transform: translateX(4px);
+    transform: translateX(6px);
     transition: 1s;
 }
 .sticksellers::before{
@@ -168,7 +168,7 @@ html{
     top: 309px;
 }
 .sticksellers:hover:before{
-    transform: translateX(4px);
+    transform: translateX(6px);
     transition: 1s;
 }
 .stickpartners:before{
@@ -183,7 +183,7 @@ html{
     top: 372px;
 }
 .stickpartners:hover::before{
-    transform: translateX(4px);
+    transform: translateX(6px);
     transition: 1s;
 }
 .stickproducer::before{
@@ -198,7 +198,7 @@ html{
     top: 437px;
 }
 .stickproducer:hover:before{
-    transform: translateX(4px);
+    transform: translateX(6px);
     transition: 1s;
 }
 .stickadres::before{
@@ -213,7 +213,7 @@ html{
     top: 500px;
 }
 .stickadres:hover:before{
-    transform: translateX(4px);
+    transform: translateX(6px);
     transition: 1s;
 }
 .stickcontact::before{
@@ -228,7 +228,7 @@ html{
     top: 563px;
 }
 .stickcontact:hover::before{
-    transform: translateX(4px);
+    transform: translateX(6px);
     transition: 1s;
 }
 .footer{
