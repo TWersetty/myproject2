@@ -1,10 +1,6 @@
 html{
     font-family: 'TT Lakes', 'TT Lakes Light';
 }
-address{
-    font-family: 'TT Lakes', 'TT Lakes Light';
-    font-style: normal;
-}
 .body{
     width: 320px;
     height: 980px;
@@ -273,6 +269,8 @@ address{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
+    font-family: 'TT Lakes', 'TT Lakes Light';
+    unicode-bidi: normal;
 }
 .footer__phone{
     width: 320px;
@@ -282,6 +280,8 @@ address{
     font-weight: bolder;
     font-size: 24px;
     font-style: normal;
+    font-family: 'TT Lakes', 'TT Lakes Light';
+    unicode-bidi: normal;
 }
 .footer__lang{
     width: 100px;
