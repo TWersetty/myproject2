@@ -1,5 +1,5 @@
 html{
-    font-family: 'TT Lakes', 'TT Lakes light';
+    font-family: 'TT Lakes', 'TT Lakes Light';
 }
 .body{
     width: 320px;
@@ -260,7 +260,6 @@ html{
     width: 320px;
     height: 70px;
     margin-top: 16px;
-    font-family: 'TT Lakes';
 }
 .footer__mail{
     width: 106px;
