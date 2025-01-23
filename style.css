@@ -12,10 +12,10 @@
     font-family: "TTLakes-Bold";
     src: url("/fonts/TTLakes-Bold.eot");
     src: url("/fonts/TTLakes-Bold.woff") format("woff");
+    src: url("/fonts/TTLakes-Bold.ttf");
     font-weight: bold;
     font-style: normal;
 } 
-
 .body{
     width: 320px;
     height: 980px;
